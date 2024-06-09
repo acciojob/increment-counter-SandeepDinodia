@@ -8,4 +8,4 @@ incrementBtn.addEventListener("click",function() {
 	alert('lockhost3000says');
 	count++;
 	counter.innerText=count;
-})
+});
