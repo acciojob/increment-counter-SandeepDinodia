@@ -1,11 +1,11 @@
 //your JS code here. If required.
-const inc=document.getElementById('inc');
-const btn=document.getElementById('btn');
+const counter=document.getElementById('counter');
+const incrementBtn=document.getElementById('incrementBtn');
 
 let count=0;
 
-btn.addEventListener("click",function() {
+incrementBtn.addEventListener("click",function() {
 	alert('lockhost3000says')
 	count++;
-	inc.innerText=count;
+	counter.innerText=count;
 })
