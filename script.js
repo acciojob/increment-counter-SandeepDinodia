@@ -5,7 +5,7 @@ const incrementBtn=document.getElementById('incrementBtn');
 let count=0;
 
 incrementBtn.addEventListener("click",function() {
-	alert('lockhost3000says');
+	alert('Current Counter Value: ' + count);
 	count++;
 	counter.innerText=count;
 });
